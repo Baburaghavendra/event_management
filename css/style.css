@@ -46,7 +46,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
+  outline: 3px solid rgba(black, .75);
 }
 
 .nav-toggle-label {
@@ -135,10 +135,10 @@ nav a:hover {
 }
 
 @media screen and (min-width: 800px) {
-  .nav-toggle-label {
-    display: none; 
+  /* .nav-toggle-label {
+    /* display: none;  */
    
-     }
+     } */
 
   header {
     display: grid;
@@ -211,7 +211,7 @@ nav a:hover {
     animation: slide-left 3s;
     margin-left: 75%;
     margin-top:10%;
-    font-weight: bold;
+    font-weight: lighter;
   }
   div.slide-left p {
     display:block;  
@@ -219,9 +219,8 @@ nav a:hover {
     margin-left: 55%;
     margin-top:10px;
     margin-right:20px;
-    color: black;
+    color: darkred;
     font-size: large;
-    font-weight:lighter;
     
   }
   
