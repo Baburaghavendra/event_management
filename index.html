@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="shroutcut icon" href="img/icon.gif">
+ <title>Event Management</title>
+        
+        
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <script src="js/counter.js"></script>
+ 
+</head>
+
+<body style="background-image: url('bg2.png'); background-size: cover;">
+        <header> 
+   
+    <nav class="navbar navbar-expand-sm bg-grey navbar-dark fixed-top" style="margin-top: 30px;">
+        <h1 class="logo">Logo</h1>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <!-- <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" style="width:80px;"></a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNavDropdown" class="navbar-collapse collapse">
+          <ul class="navbar-nav mr-auto">
+              <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+              </li> -->
+
+          </ul>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#News">News&Events</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            </label>
+        </header>
+        
+           
+        <div class="slide-left" style="height: 700px;">
+            <h3>About Us</h3>    
+            <p>Even though the current trends of AI, RFID, face recognition, and live streaming are 
+                imposing huge pressure on event professionals, it’s fair to say their lives are much easier today. 
+                Only a decade ago, an event planner would have to possess a solid knowledge of HTML, CSS, 
+                and Photoshop to create a functional event website. 
+                The introduction of easy-to-use website builders with pre-made templates changed everything.</p>
+        </div>
+        
+      <section id="News"  style="background-color:orange; background-size: cover; "> 
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-12 my-3">
+                    <div class="pull-right">
+                        <div class="btn-group">
+                            <button class="btn btn-info" id="list">
+                                List View
+                            </button>
+                            <button class="btn btn-danger" id="grid">
+                                Grid View
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+                <h5>News & Events</h5>
+            </div> 
+            <div id="products" class="row view-group">
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <img class="group list-group-image img-fluid" src="http://placehold.it/400x250/000/fff" alt=""  width="100%"/>
+                                </div>
+                                <div class="caption card-body">
+                                    <h4 class="group card-title inner list-group-item-heading">
+                                      Event 1</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6" style="margin-bottom: 10px;">
+                                            <a class="btn btn-info" href="http://www.jquery2dotnet.com">Date Here...</a>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                   
+                    
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <img class="group list-group-image img-fluid" src="http://placehold.it/400x250/000/fff" alt=""  width="100%"/>
+                                </div>
+                                <div class="caption card-body">
+                                    <h4 class="group card-title inner list-group-item-heading">
+                                       Event 2</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                    <div class="row">
+                                            <div class="col-xs-12 col-md-6" style="margin-bottom: 10px;">
+                                                <a class="btn btn-info" href="http://www.jquery2dotnet.com">Date Here...</a>     
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-4 col-lg-4">
+                            <div class="thumbnail card">
+                                <div class="img-event">
+                                    <img class="group list-group-image img-fluid" src="http://placehold.it/400x250/000/fff" alt="" width="100%" />
+                                </div>
+                                <div class="caption card-body">
+                                    <h4 class="group card-title inner list-group-item-heading">
+                                        Event 3</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                    <div class="row">
+                                            <div class="col-xs-12 col-md-6" style="margin-bottom: 10px;">
+                                                <a class="btn btn-info" href="http://www.jquery2dotnet.com">Date Here...</a>
+                                            </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Read More...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+      </section>  
+      
+    <!--Counter Section-->    
+<section id="Counter" style="background-color:blue; background-size: cover;>
+    <div class="container">
+      <!-- <div class="row">
+            <br/>
+           <div class="col text-center"></div>
+          
+      </div> -->
+
+        <div class="row text-center">
+            <div class="col-sm">
+             <div class="counter">
+                <i class="fa fa-briefcase fa-2x"></i>
+                <h2 class="timer count-title count-number" data-to="10" data-speed="1500"></h2>
+                <p class="count-text ">Years of Experience</p>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="counter">
+                  <i class="fa fa-users fa-2x"></i>
+                  <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+                  <p class="count-text ">Happy Clients</p>
+              </div>
+            </div>
+
+
+            <div class="col-sm">
+              <div class="counter">
+                <i class="fa fa-birthday-cake fa-2x"></i>
+                <h2 class="timer count-title count-number" data-to="50" data-speed="1500"></h2>
+                <p class="count-text ">Event Organised</p>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="counter">
+                <i class="fa fa-trophy fa-2x"></i>
+                <h2 class="timer count-title count-number" data-to="25" data-speed="1500"></h2>
+                <p class="count-text ">Award Won</p>
+              </div>
+            </div>
+        </div>
+  </div>
+</section>
+<!--End of Counter Section-->  
+
+<!-- Footer -->
+<footer class="page-footer bg-dark font-small special-color-light pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row">
+  
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+  
+          <!-- Form -->
+          <form class="form-inline">
+            <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+              aria-label="Search">
+            <i class="fa fa-search fa-1x" aria-hidden="true" style="color:white";></i>
+          </form>
+          <!-- Form -->
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+  
+          <form class="input-group">
+            <input type="text" class="form-control form-control-sm" placeholder="Your email"
+              aria-label="Your email" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-success" style="height:32px;">Subscribe</button>
+            </div>
+          </form>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color: springgreen;">© 2020 Copyright:
+      Designed by<a href="https://mdbootstrap.com/">  Baburaghavendra</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+        
+
+
+     
+</body>
+</html>    
